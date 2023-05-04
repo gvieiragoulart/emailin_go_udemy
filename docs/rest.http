@@ -1,0 +1,14 @@
+POST http://localhost:3000/campaigns
+
+{
+    "Name": "mous2e",
+    "Content": "change password",
+    "emails": ["teste@teste.com"]
+}
+###
+GET  http://localhost:3000/campaigns/ch9hig11cp6n1g28895g
+###
+PATCH   http://localhost:3000/campaigns/cancel/ch9h4691cp6hd5ton8v0
+
+###
+DELETE   http://localhost:3000/campaigns/ch9h4691cp6hd5ton8v0
